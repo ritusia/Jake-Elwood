@@ -1,130 +1,126 @@
 header {
-    background-image: url('img/hero-bg.jpg');
-    background-position: 55% 10%;
+  background-image: url('./img/hero-bg.jpg');
+  background-position: 55% 10%;
 }
 
 /* topography  */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body * {
-    margin: 0;
+  margin: 0;
 }
 
 .non-bold {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-
-
 .logo {
-    background: #FFE600;
-    font-family: 'Basic', sans-serif;
-    font-size: 1.7rem;
-    font-weight: 900;
+  background: #ffe600;
+  font-family: 'Basic', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 900;
 }
 
 .btn-menu {
-    color: #FFFFFF;
-    background: black;
+  color: #ffffff;
+  background: black;
 }
 
 .intro {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-.intro>h2 {
-    font-size: 1.5rem;
+.intro > h2 {
+  font-size: 1.5rem;
 }
 
-.intro>h3 {
-    font-size: 1.125rem;
-    font-weight: 400;
+.intro > h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
 .yellow-color {
-    color: #FFE600;
+  color: #ffe600;
 }
 
 .btn-contact {
-    background: #FFE600;
-    font-weight: 700;
-    font-size: .875rem;
+  background: #ffe600;
+  font-weight: 700;
+  font-size: 0.875rem;
 }
 
 h4 {
-    font-size: 1rem;
-    font-weight: 700;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 p {
-    font-size: 0.88rem;
+  font-size: 0.88rem;
 }
 
 footer {
-    background: #EBEBEB;
+  background: #ebebeb;
 }
 
 .icon {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
 footer .logo {
-    background: #EBEBEB;
+  background: #ebebeb;
 }
 
 footer h1,
 p {
-    opacity: 37%;
+  opacity: 37%;
 }
-
-
 
 /* layout */
 
 /* .container {
-    display: grid;
-    grid-template: auto auto auto / auto;
-    grid-template-areas:
-    
+  display: grid;
+  grid-template: auto auto auto / auto;
+  grid-template-areas:
+  
 } */
 
 nav {
-    display: grid;
-    grid-template: auto / 200px 60px;
-    grid-gap: auto;
+  display: grid;
+  grid-template: auto / 200px 60px;
+  grid-gap: auto;
 }
 
 .main-logo {
-    align-self: end;
-    padding-top: 1.2em;
+  align-self: end;
+  padding-top: 1.2em;
 }
 
 .btn-menu {
-    justify-self: end;
-    align-items: center;
+  justify-self: end;
+  align-items: center;
 }
 
 header {
-    min-height: 70vh;
-    display: grid;
-    padding-left: 1.5em;
+  min-height: 70vh;
+  display: grid;
+  padding-left: 1.5em;
 }
 
 .intro {
-    width: 70%;
-    display: grid;
-    grid-template: auto auto auto / auto;
-    grid-gap: 3em;
+  width: 70%;
+  display: grid;
+  grid-template: auto auto auto / auto;
+  grid-gap: 3em;
 }
 
 .btn-contact {
-    padding: .5em 0;
-    width: 8em;
+  padding: 0.5em 0;
+  width: 8em;
 }
